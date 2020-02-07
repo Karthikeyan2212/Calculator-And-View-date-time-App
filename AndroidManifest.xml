@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:compileSdkVersion="28"
+    android:compileSdkVersionCodename="9"
+    package="com.example.file"
+    platformBuildVersionCode="28"
+    platformBuildVersionName="9">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <application
+        android:theme="@ref/0x7f0c0005"
+        android:label="@ref/0x7f0b0027"
+        android:icon="@ref/0x7f0a0000"
+        android:debuggable="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+
+        <activity
+            android:name="com.example.myapp1.MainActivity">
+
+            <intent-filter>
+
+                <action
+                    android:name="android.intent.action.MAIN" />
+
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
